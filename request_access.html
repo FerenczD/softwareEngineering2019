@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms: Request Access</title>
+        <meta name="author" content="Ferencz Dominguez" />
+
+        <link href="css/request_access.css" type="text/css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <h1>Request Access</h1>
+        <form action="php/request_acc.php" method="post" id="access">
+            <fieldset>
+                <p>First name: <input type="text" name="firstname" /></p>
+                <p>Last name: <input type="text" name="lastname" /></p>
+                <p>Email: <input type="email" name="email" /></p>
+                <p>Website: <input type="url" name="url" /></p>
+                <p>Birth date: <input type="date" class="text" name="birthday" /></p>
+    
+                <input type="radio" name="fac_or_student" value="faculty" /> Faculty
+                <input type="radio" name="fac_or_student" value="student" /> Student   
+            </fieldset>
+            
+            <p>I currently ... (check all that appy)</p>
+            <label><input type="checkbox" name="involvement" value="none" /> Have no involvement in Project</label> <br />
+            <label><input type="checkbox" name="involvement" value="instructor" /> An instructor in this Project </label><br />
+            <label><input type="checkbox" name="involvement" value="instructor_other" /> An instructor in a different Project </label><br />
+
+            <p>Do you drive a car?</p>
+            <select name="drives_car">
+                <option value="no_answer" selected></option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <p>Tell us a bit about yourself</p>
+            <textarea class="text">Other details... </textarea> <br/>
+            <input type="submit" class="submit" value="Submit Request" />
+        </form>
+    </body>
+    <footer> Copyright &copy for Ferencz Dominguez.
+</html>

@@ -1,0 +1,46 @@
+body {
+    font-family:Georgia,serif;
+    width: 950px;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto 0px auto ;
+    border: 2px solid black;
+}
+
+p {
+    font-size: 100%;
+    line-height: 20px;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+ul,ol {
+    font-size: 100%;
+    line-height: 20px;
+    text-align: justify; 
+}
+
+h1 {
+    font-size: 160%;
+}
+
+h2 {
+    font-size: 125%;
+}
+
+image {
+    height: 300px;
+}
+
+figcaption {
+    align-content: center;
+    font-style: italic;
+    font-size: 90%
+}
+
+.mkbold {
+    font-weight: bold;
+}
+
+.mkunderlined {
+    text-decoration: underline;
+}

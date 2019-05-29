@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Project VI - Login</title>
+		<meta name="author" content="Ferencz Dominguez" />
+
+		<link href="css/styleLogin.css" type="text/css" rel="stylesheet" />
+
+	</head>
+	<body>
+        <form action="php/login.php" id="login" method="POST">
+			<h1>Please log in</h1>
+			<div>
+				<label for="user" class="text_label">Username:</label>
+				<input id="user" type="text" class="text_input" name="username"/>
+			</div>
+			<div>
+				<label for="pass" class="text_label">Password:</label>
+				<input id="pass" type="password" class="text_input" name="password" required/>
+			</div>
+			<div>
+				<input type="submit" value="Log in" id="submit"/>
+			</div>
+			<p> <a href="request_access.html">Request Access</a></p>
+        </form>
+		<!-- <figure>
+				<img src="images/pika.jpg" alt="Cool pokemon-digimon mix art" title="Pokemon-Digimon mix" width="400"/>
+				<figcaption>Pokemon-Digimon mix</figcaption>
+		</figure> -->
+	</body>
+	<footer> Copyright &copy for Ferencz Dominguez.
+</html>

@@ -1,0 +1,22 @@
+.text_label {
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding: 0px 10px 0px 0px;
+}
+
+.text_input {
+    width: 150px;
+    height: 20px;
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+}
+
+div {
+    width: 274px;
+    padding: 10px 0px 10px 0px;
+}
+
+#submit {
+    float: right;
+}
