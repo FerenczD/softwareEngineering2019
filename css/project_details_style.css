@@ -27,12 +27,26 @@ h2 {
     font-size: 125%;
 }
 
-image {
-    height: 300px;
+figure#fig1 {
+    border: 2px solid blue;
+    border-radius: 25px;
+    box-shadow: -10px 10px 5px gray;
+
+}
+figure#fig2 {
+    border: 2px solid red;
+    border-radius: 25px,
+    box-shadow: -10px 10px 5px gray;
 }
 
-figcaption {
-    align-content: center;
+figure img {
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+figure figcaption {
+    text-align: center;
     font-style: italic;
     font-size: 90%
 }
