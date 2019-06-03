@@ -70,10 +70,5 @@ input.text:focus, textarea.text:focus {
     color:black;
 }
 
-footer{
-    text-align: center;
-}
 
-input.radioChoice:hover {
-    color: palevioletred;
-}
+
